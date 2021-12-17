@@ -1,0 +1,32 @@
+{
+  "name": "nodebird",
+  "version": "1.0.0",
+  "description": "practice nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiyee-gj/nodebird.git"
+  },
+  "author": "hiyee-gj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiyee-gj/nodebird/issues"
+  },
+  "homepage": "https://github.com/hiyee-gj/nodebird#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nunjucks": "^3.2.3",
+    "sequelize": "^6.12.0-beta.3",
+    "sequelize-cli": "^6.3.0"
+  }
+}
