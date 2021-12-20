@@ -10,7 +10,7 @@ module.exports = () => {
 
     passport.deserializeUser((id, done) => {
         User.findOne({ where: { id } })
-            .then(user => done(null, user))
+            .then(user => done(null, user)) // req.user, req.isAutherticated()
             .catch(err => done(err));
     });
 
