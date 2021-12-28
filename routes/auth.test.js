@@ -12,10 +12,10 @@ describe('POST /join', () => {
             .post('/auth/join')
             .send({
                 email: 'hiyee0619@gmail.com',
-                nickname: 'gyeongjae',
+                nick: 'gyeongjae',
                 password: 'nodebird123'
             })
-            .expect('Location', '/join?error=exist')
+            .expect('Location', '/')
             .expect(302, done);
     });
 });
@@ -33,7 +33,9 @@ describe('POST /login', () => {
     });
 });
 
-
+afterAll(async () => {
+    await sequelize.sync({force: true});
+});
 //
 // describe('GET /logout', () => {
 //
