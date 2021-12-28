@@ -9,7 +9,7 @@
     "test": {
         "username": "root",
         "password": "mslfl4861!!",
-        "database": "nodebird",
+        "database": "nodebird-test",
         "host": "127.0.0.1",
         "dialect": "mysql"
     },
