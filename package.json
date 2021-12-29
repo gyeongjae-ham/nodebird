@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/hiyee-gj/nodebird#readme",
     "devDependencies": {
+        "artillery": "^2.0.0-9",
         "jest": "^27.4.5",
         "nodemon": "^2.0.15",
         "supertest": "^6.1.6"
